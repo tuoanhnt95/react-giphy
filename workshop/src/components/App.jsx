@@ -13,8 +13,8 @@ const giphy = require('giphy-api')({
 const App = () => {
   // const gifIds = ["WuGSL4LFUMQU", "HuVCpmfKheI2Q", "u6uAu3yyDNqRq"];
   // const selectedId = "kHrKpJiCb0mkWD4xT9";
-  const [selectedId, setSelectedId] = useState("WuGSL4LFUMQU");
-  const [gifIds, setGifIds] = useState(["WuGSL4LFUMQU", "HuVCpmfKheI2Q", "u6uAu3yyDNqRq"]);
+  const [selectedId, setSelectedId] = useState("DxUiFqLgDVC00");
+  const [gifIds, setGifIds] = useState(["DxUiFqLgDVC00", "JEhCPFfqi2Hy8", "LkjlH3rVETgsg"]);
   const fetchGiphy = (keyword) => {
     giphy.search({
       q: keyword,

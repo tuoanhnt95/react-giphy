@@ -5,7 +5,7 @@ const SearchBar = (props) => {
     const { fetchGiphy } = props;
     const inputElement = event.currentTarget;
     const keyword = inputElement.value;
-    fetchGiphy(keyword);
+    fetchGiphy(`book ${keyword}`);
   };
 
   return (
